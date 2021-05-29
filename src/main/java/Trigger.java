@@ -1,17 +1,9 @@
 public class Trigger {
-    //final TheToy toy;
-    //volatile boolean trigger;
-    boolean trigger;
+    TheToy toy;
+    private boolean trigger;
 
-//    public Trigger(TheToy toy) {
-//        this.toy = toy;
-//    }
-
-    public Trigger(boolean trigger) {
-        this.trigger = trigger;
-    }
-
-    public Trigger(){
+    public Trigger(TheToy toy) {
+        this.toy = toy;
     }
 
     public boolean getTrigger() {
@@ -21,5 +13,4 @@ public class Trigger {
     public void setTrigger(boolean trigger) {
         this.trigger = trigger;
     }
-
 }
